@@ -1,4 +1,47 @@
-img{
-    width: 108px;
-    
+body {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: pink;
+  max-width: 900px;
+  margin: auto;
+  /* min-width: 900px; */
+}
+img {
+  width: 108px;
+}
+.menubox {
+  margin-left: 5px;
+  display: flex;
+}
+
+button {
+  background-color: white;
+  border: 0;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.login {
+  color: #737373;
+}
+
+.logo {
+  padding-right: 60px;
+}
+
+.loginbox {
+  display: flex;
+  align-items: center;
+}
+
+.ellipsis {
+  width: 24px;
 }

@@ -1,0 +1,17 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: deeppink;
+}
+
+@media (min-width: 768px) {
+  .box {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1048px) {
+  .box {
+    background-color: rgb(134, 255, 14);
+  }
+}
